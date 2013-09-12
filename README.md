@@ -108,6 +108,7 @@ $("#modal_trigger").ngModal( options );
 Below are the available options
 
 ```
+var options = {
 'modal_fadein': 400, // fadeTo duration when no animation passed
 'modal_fadeout': 750, // fadeOut duration if no animation passed
 'modal_attr': 'rel', // what attribute holds modal box id
@@ -126,4 +127,5 @@ Below are the available options
 'overlay_preset_css': null, // pass true to use hardcoded css properties, or an object of css properties. otherwise you must use a stylesheet
 'overlay_animate_open': null, // callback function to animate overlay into view. if not passed a preset fade is used. overlay_id passed as param
 'overlay_animate_close': null // callback function to animate overlay out of view. if not passed a preset fade is used. overlay_id passed as param
+}
 ```
